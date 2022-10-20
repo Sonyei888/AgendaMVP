@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:paddingBottom="5dp">
+
+  <TextView
+      android:id="@+id/textView4"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:paddingTop="20dp"
+      android:text="Crea Tu Cuenta"
+      android:textAlignment="center"
+      android:textColor="@color/cardview_light_background"
+      android:textSize="34sp" />
+
+  <EditText
+      android:id="@+id/editnombreregister"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="5dp"
+      android:layout_marginTop="40dp"
+      android:layout_marginRight="5dp"
+      android:background="#717171"
+      android:drawablePadding="12dp"
+      android:ems="10"
+      android:hint="Nombre"
+      android:inputType="textPersonName"
+      android:paddingLeft="20dp"
+      android:paddingTop="10dp"
+      android:paddingBottom="10dp"
+      android:text="yeison"
+      android:textColor="@color/white" />
+
+  <EditText
+      android:id="@+id/editcorreoregister"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="5dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginRight="5dp"
+      android:background="#717171"
+      android:drawablePadding="12dp"
+      android:ems="10"
+      android:hint="Correo "
+      android:inputType="textEmailAddress"
+      android:paddingLeft="20dp"
+      android:paddingTop="10dp"
+      android:paddingBottom="10dp"
+      android:text="yeison@gmail.com"
+      android:textColor="@color/white" />
+
+  <EditText
+      android:id="@+id/edittelefonoregister"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="5dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginRight="5dp"
+      android:background="#717171"
+      android:drawablePadding="12dp"
+      android:ems="10"
+      android:hint="Telefono"
+      android:inputType="phone"
+      android:paddingLeft="20dp"
+      android:paddingTop="10dp"
+      android:paddingBottom="10dp"
+      android:text="3222445384"
+      android:textColor="@color/white" />
+
+  <ProgressBar
+      android:id="@+id/progressBar2"
+      style="?android:attr/progressBarStyle"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:visibility="gone" />
+
+  <EditText
+      android:id="@+id/editdireccionregister"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="5dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginRight="5dp"
+      android:background="#717171"
+      android:drawablePadding="12dp"
+      android:ems="10"
+      android:hint="direccion"
+      android:inputType="textPersonName"
+      android:paddingLeft="20dp"
+      android:paddingTop="10dp"
+      android:paddingBottom="10dp"
+      android:text="Lebrija"
+      android:textColor="@color/white" />
+
+  <EditText
+      android:id="@+id/editcontrasenaregister"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="5dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginRight="5dp"
+      android:background="#717171"
+      android:drawablePadding="12dp"
+      android:ems="10"
+      android:hint="contrasena"
+      android:inputType="textPersonName"
+      android:paddingLeft="20dp"
+      android:paddingTop="10dp"
+      android:paddingBottom="10dp"
+      android:text="user.123"
+      android:textColor="@color/white" />
+
+  <Button
+      android:id="@+id/btnRegistrar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="50dp"
+      android:layout_marginRight="20dp"
+      android:backgroundTint="#FF8800"
+      app:cornerRadius="50dp"
+      android:text="Registrarse"
+      android:textAllCaps="false" />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_weight="50"
+      android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:text="¿Ya Tienes Cuenta?"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#000000"
+        android:text="Inicia Sesion"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_orange_dark" />
+
+  </LinearLayout>
+
+</LinearLayout>
